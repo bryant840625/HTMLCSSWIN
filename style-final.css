@@ -1,0 +1,211 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+    height: 3000px;
+    width: 1500px;
+    border: 2px solid green;
+    margin: auto;
+}
+.header ul{
+    width:600px;
+    display: block;
+    float: right;
+    
+    margin-top: 10px;
+}
+.header ul li{
+    width: 200px;
+    color:aquamarine;
+    text-align: center;
+    font-size: 26px;
+    text-decoration:underline ;
+    float:right;
+    
+    
+}
+.title{
+    background:url(../img/banner1.png);
+    width: 1500px;
+    height: 518px;
+     position: relative;
+}
+
+.title .tag {
+    position: absolute;
+    display: block;
+    width: 1450px;
+    height: 150px;
+    background: black;
+    opacity: 0.6;
+    top:25%;
+    background-blend-mode: multiply;
+    color: white;
+    font-size: 36px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.domain {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.domain li{
+    height: 500px;
+    width: 400px;
+    border: solid 2px gainsboro;  
+    border-top-style:none ;  
+    border-bottom-style:double ;
+    box-shadow:0px 5px 5px gray 
+}
+.domain li a img{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width:150px;
+    height:180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.domain li h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+    
+} 
+.domain li p{
+    line-height: 25px;
+    letter-spacing: 2px;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 15px;
+
+}
+span{
+    margin-left: 15px;
+}
+.method {
+    display: block;
+    height: 200px;
+    margin-top: 15px;
+}
+.domain .method li{
+    height: 38px;
+    width: 300px;
+    font-size: 15px;
+    border-style: none;
+    box-shadow: none;
+    list-style-type: circle;
+    padding-left: 5px;
+    margin-left: 36px;
+    line-height: 15px;
+    
+}
+.domain a1 img{
+    width:320px;
+    height: 180px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.table{
+    margin-top: 80px;
+}
+.table h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.price {
+    display: block;
+    width: 1200px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+   
+}
+.price tr th{
+    width: 300px;
+    height:50px;
+    font-size: 20px;
+    padding-top: 20px;
+    background: gainsboro;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 15px;
+    border-bottom: 2px solid gray;
+}
+.price tr td{
+    width: 300px;
+    height:50px;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 15px;
+    border-bottom: 2px solid gray;
+}
+.fother{
+    background:linear-gradient(#2e8b57 ,#3cb371);
+    height: 600px;
+}
+.fother h1{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+
+}
+.box{
+    padding-top: 25px;
+}
+.comment{
+    padding-left: 20px;
+    padding-top: 20px;
+}
